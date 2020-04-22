@@ -1,0 +1,25 @@
+Region B is 			3625-9150 (len=5525)
+Region C is 			9261-11795 (len=2534)
+	
+Regions A-prime is		13291-14932 (total len=5017)
+						15405-17162
+						18009-19628
+
+Region A is				13291-19628 (len=6337)
+
+--------------
+
+sequences to remove to ensure clonality (according to PI signals)
+
+1. 		DQ412042
+2,3. 	CoV*45/21
+4.		Bulgaria
+5.		SC2018
+
+=========
+
+So: A'BC os 5017+5525+2534=13076 .... this is what CR1 is.
+
+( for some reason, the length of CR1 is 13081, probably bc endpoints weren't done correctly )
+
+

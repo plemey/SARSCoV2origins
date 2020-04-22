@@ -1,0 +1,53 @@
+Region A
+--------
+1. In A1, the RaTG-Wuhan lineage clusters with the bat viruses and not the pangolin 
+	viruses (bootstrap=86); should exclude Region A1
+
+2. In A2, seq DQ412042 should be removed
+3. In A2, CoV*45/21 should both be removed
+4. Bulgaria sequence should be removed
+5. A4 should be removed bc guangdong pangolin clusters outside SARS2-RaTG *and* SARS2 does not
+	cluster with the five Guangxi pangolins
+
+
+A1 is 3872-4716 nt positions of A
+A4 is 1642-2113 nt positions of A
+
+Call A-prime the regions with A1 and A4 removed.
+
+REM: region A is 13291-19628
+
+
+Region B
+--------
+no need to exclude SC2018 or CoV*21/45 from Region B specifically, but in 
+general, these need to be excluded
+
+In general, Region B is clonal as is, by itself (i.e. no PI-signals within it)
+
+
+Region C
+--------
+
+Remove bulgaria sequence.  Otherwise, Region C can be presented as clonal as is.
+
+
+Regions B and C together
+------------------------
+In region B, pink and turquoise cluster w each other (bs=78) and in region C pink and blue cluster together (bs=91).  But the bs is not over 80 for both, so we don't consider it a PI-signal.
+
+You have to remove SC2018 from here since it has a pronounced jump (bs=90,bs=100).
+
+You don't need to remove Cov*21|45 here.
+
+
+MARCH 9 2020 - SUMMARY
+----------------------
+
+Note that CR1 = A'BC
+
+and the following 5 sequences have been removed:
+1. 		DQ412042
+2,3. 	CoV*45/21
+4.		Bulgaria
+5.		SC2018

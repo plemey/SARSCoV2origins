@@ -1,0 +1,63 @@
+════════════════════════════════════════════════════════════════════════════════
+3SEQ -- Full Run
+════════════════════════════════════════════════════════════════════════════════
+
+COMMAND:
+  -f CR1.63seq.5removed.fa -id CR1_63
+
+Using 63 sequences as parents.
+Using 63 sequences as children.
+
+Need a p-value of 2.09849e-07 to survive multiple comparisons correction.
+
+All recombinant triplets will be recorded to the file "CR1_63.3s.rec".
+
+Long recombinants will be recorded to the file "CR1_63.3s.longRec".
+
+Searching for P-value table file...
+
+Loading P-value table from file
+"/home/maciek/PVALUETABLES/PVT.3SEQ.2017.1900"
+  Table size : 1900 * 1900 * 1900
+
+This will take 8722 MB of memory (RAM). Proceed? (Y/N) - YES
+
+Please be patient while the table loads into memory.
+This will typically take less than twenty seconds.
+
+────────────────────────────────────────────────────────────────────────────────
+
+                                                Recombinant
+Progress    Time Elapsed    Minimum P-Value    Triplets Found
+100.000%      000:00:15       0.000000e+00             4979
+
+────────────────────────────────────────────────────────────────────────────────
+
+Number of triples tested :              238266
+Number of p-values computed exactly :   224214
+Number of p-values approximated (HS) :  14052
+Number of p-values not computed :       0
+
+Number of recombinant triplets :                               	4979
+Number of distinct recombinant sequences :                     	53
+Number of distinct recombinant sequences at least 100nt long : 	51
+Longest of short recombinant segments :                        	5348nt
+
+────────────────────────────────────────────────────────────────────────────────
+
+Rejection of the null hypothesis of clonal evolution at p = 0
+                                                        p = 0.000e+00
+                                            Uncorrected p = 0
+                                            Bonferroni  p = 0
+
+────────────────────────────────────────────────────────────────────────────────
+
+The histogram of P-values has been saved in the file "CR1_63.3s.pvalHist".
+
+════════════════════════════════════════════════════════════════════════════════
+
+
+                                            ╔══════════════════════════════════╗
+                                            ║ Log saved at 2020/02/22 04:28:25 ║
+                                            ╚══════════════════════════════════╝
+

@@ -1,0 +1,63 @@
+════════════════════════════════════════════════════════════════════════════════
+3SEQ -- Full Run
+════════════════════════════════════════════════════════════════════════════════
+
+COMMAND:
+  -f Region_A_13291_19628.fasta -id RegA
+
+Using 68 sequences as parents.
+Using 68 sequences as children.
+
+Need a p-value of 1.66281e-07 to survive multiple comparisons correction.
+
+All recombinant triplets will be recorded to the file "RegA.3s.rec".
+
+Long recombinants will be recorded to the file "RegA.3s.longRec".
+
+Searching for P-value table file...
+
+Loading P-value table from file
+"/home/maciek/PVALUETABLES/PVT.3SEQ.2017.1900"
+  Table size : 1900 * 1900 * 1900
+
+This will take 8722 MB of memory (RAM). Proceed? (Y/N) - YES
+
+Please be patient while the table loads into memory.
+This will typically take less than twenty seconds.
+
+────────────────────────────────────────────────────────────────────────────────
+
+                                                Recombinant
+Progress    Time Elapsed    Minimum P-Value    Triplets Found
+100.000%      000:00:08       9.809089e-45             3909
+
+────────────────────────────────────────────────────────────────────────────────
+
+Number of triples tested :              300696
+Number of p-values computed exactly :   300696
+Number of p-values approximated (HS) :  0
+Number of p-values not computed :       0
+
+Number of recombinant triplets :                               	3909
+Number of distinct recombinant sequences :                     	59
+Number of distinct recombinant sequences at least 100nt long : 	59
+Longest of short recombinant segments :                        	2948nt
+
+────────────────────────────────────────────────────────────────────────────────
+
+Rejection of the null hypothesis of clonal evolution at p = 2.94955e-39
+                                                        p = 2.950e-39
+                                            Uncorrected p = 9.80909e-45
+                                            Bonferroni  p = 2.94955e-39
+
+────────────────────────────────────────────────────────────────────────────────
+
+The histogram of P-values has been saved in the file "RegA.3s.pvalHist".
+
+════════════════════════════════════════════════════════════════════════════════
+
+
+                                            ╔══════════════════════════════════╗
+                                            ║ Log saved at 2020/02/22 00:32:08 ║
+                                            ╚══════════════════════════════════╝
+

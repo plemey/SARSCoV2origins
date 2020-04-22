@@ -1,0 +1,37 @@
+════════════════════════════════════════════════════════════════════════════════
+3SEQ -- Info Mode
+════════════════════════════════════════════════════════════════════════════════
+
+COMMAND:
+  -i nCoVbat.pan6.outside.fa
+
+Number of sequences          :  68
+Number of distinct sequences :  67
+Number of comparisons        :  300696
+
+Original sequence length is 17926 nt.
+Using 17926 positions, from 1 to 17926 inclusive.
+
+Number of polymorphic sites is 8541. Using only polymorphic sites:
+    bi: 5218 - tri: 2356 - tetra: 967
+
+Number of polymorphic sites where there are no gaps :  7368/8541
+
+Watterson's Theta            :  2024.17
+Watterson's Theta (per site) :  0.112918
+
+Min  pairwise-distance between strains :  0
+Max  pairwise-distance between strains :  4331
+Mean pairwise-distance between strains :  2136.53
+Mean pairwise-distance per site (pi)   :  0.119186
+
+Notes:
+   AA-- and --AA are distinct but the pairwise-distance between them is zero.
+
+════════════════════════════════════════════════════════════════════════════════
+
+
+                                            ╔══════════════════════════════════╗
+                                            ║ Log saved at 2020/03/08 16:14:54 ║
+                                            ╚══════════════════════════════════╝
+

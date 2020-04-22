@@ -1,0 +1,37 @@
+════════════════════════════════════════════════════════════════════════════════
+3SEQ -- Info Mode
+════════════════════════════════════════════════════════════════════════════════
+
+COMMAND:
+  -i CR1.63seq.5removed.fa -id CR1_63seq_5removed
+
+Number of sequences          :  63
+Number of distinct sequences :  60
+Number of comparisons        :  238266
+
+Original sequence length is 13081 nt.
+Using 13081 positions, from 1 to 13081 inclusive.
+
+Number of polymorphic sites is 5472. Using only polymorphic sites:
+    bi: 3715 - tri: 1300 - tetra: 457
+
+Number of polymorphic sites where there are no gaps :  5122/5472
+
+Watterson's Theta            :  1320.74
+Watterson's Theta (per site) :  0.100966
+
+Min  pairwise-distance between strains :  0
+Max  pairwise-distance between strains :  2924
+Mean pairwise-distance between strains :  1406.47
+Mean pairwise-distance per site (pi)   :  0.10752
+
+Notes:
+   AA-- and --AA are distinct but the pairwise-distance between them is zero.
+
+════════════════════════════════════════════════════════════════════════════════
+
+
+                                            ╔══════════════════════════════════╗
+                                            ║ Log saved at 2020/03/09 11:15:35 ║
+                                            ╚══════════════════════════════════╝
+

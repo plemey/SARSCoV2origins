@@ -1,0 +1,63 @@
+════════════════════════════════════════════════════════════════════════════════
+3SEQ -- Full Run
+════════════════════════════════════════════════════════════════════════════════
+
+COMMAND:
+  -f Region_C_9261_11795.fasta -id RegC
+
+Using 68 sequences as parents.
+Using 68 sequences as children.
+
+Need a p-value of 1.66281e-07 to survive multiple comparisons correction.
+
+All recombinant triplets will be recorded to the file "RegC.3s.rec".
+
+Long recombinants will be recorded to the file "RegC.3s.longRec".
+
+Searching for P-value table file...
+
+Loading P-value table from file
+"/home/maciek/PVALUETABLES/PVT.3SEQ.2017.1900"
+  Table size : 1900 * 1900 * 1900
+
+This will take 8722 MB of memory (RAM). Proceed? (Y/N) - YES
+
+Please be patient while the table loads into memory.
+This will typically take less than twenty seconds.
+
+────────────────────────────────────────────────────────────────────────────────
+
+                                                Recombinant
+Progress    Time Elapsed    Minimum P-Value    Triplets Found
+100.000%      000:00:03       3.429008e-13               69
+
+────────────────────────────────────────────────────────────────────────────────
+
+Number of triples tested :              300696
+Number of p-values computed exactly :   300696
+Number of p-values approximated (HS) :  0
+Number of p-values not computed :       0
+
+Number of recombinant triplets :                               	69
+Number of distinct recombinant sequences :                     	6
+Number of distinct recombinant sequences at least 100nt long : 	5
+Longest of short recombinant segments :                        	1020nt
+
+────────────────────────────────────────────────────────────────────────────────
+
+Rejection of the null hypothesis of clonal evolution at p = 1.03109e-07
+                                                        p = 1.031e-07
+                                            Uncorrected p = 3.42901e-13
+                                            Bonferroni  p = 1.03109e-07
+
+────────────────────────────────────────────────────────────────────────────────
+
+The histogram of P-values has been saved in the file "RegC.3s.pvalHist".
+
+════════════════════════════════════════════════════════════════════════════════
+
+
+                                            ╔══════════════════════════════════╗
+                                            ║ Log saved at 2020/02/22 00:35:48 ║
+                                            ╚══════════════════════════════════╝
+

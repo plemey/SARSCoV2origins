@@ -1,0 +1,41 @@
+type: Nucleotide
+rv: None
+>Loaded a Nucleotide multiple sequence alignment with **8** sequences, **30927** sites (9682 of which are variable) from `/home3/robe01d/pangolin2/8/gard/./nCoVbat.pan6-8.fst`
+>Minimum size of a partition is set to be 13 sites### Fitting the baseline (single-partition; no breakpoints) model
+* Log(L) = -111799.62, AIC-c = 223641.28 (21 estimated parameters)### Performing an exhaustive single breakpoint analysis
+Done with single breakpoint analysis.
+  Best sinlge break point location: 11828
+  c-AIC = 220713.0341366493### Performing multi breakpoint analysis using a genetic algorithm
+Done with 2 breakpoint analysis.
+  Best break point locations: 11894, 20015
+  c-AIC = 218601.0056459575
+Done with 3 breakpoint analysis.
+  Best break point locations: 11894, 20321, 24601
+  c-AIC = 217422.031620548
+Done with 4 breakpoint analysis.
+  Best break point locations: 3061, 11894, 20276, 24628
+  c-AIC = 216653.3319047483
+Done with 5 breakpoint analysis.
+  Best break point locations: 1717, 3043, 11894, 20276, 24631
+  c-AIC = 215688.2523893158
+Done with 6 breakpoint analysis.
+  Best break point locations: 1684, 3043, 11894, 21753, 22784, 24628
+  c-AIC = 215152.6704500419
+Done with 7 breakpoint analysis.
+  Best break point locations: 1717, 3043, 11894, 20013, 21753, 22771, 24628
+  c-AIC = 214517.0407084741
+Done with 8 breakpoint analysis.
+  Best break point locations: 1717, 3043, 4448, 11894, 20013, 21753, 22773, 24628
+  c-AIC = 214214.6905161255
+Done with 9 breakpoint analysis.
+  Best break point locations: 1717, 3046, 4445, 11894, 20015, 21753, 22778, 24631, 29238
+  c-AIC = 214014.7627447447
+Done with 10 breakpoint analysis.
+  Best break point locations: 1684, 3046, 4448, 11894, 16466, 20015, 21753, 22778, 24598, 29238
+  c-AIC = 213856.4870892869
+Done with 11 breakpoint analysis.
+  Best break point locations: 1684, 3046, 4448, 11885, 14415, 15590, 20015, 21753, 22773, 24628, 29238
+  c-AIC = 213687.0979438603
+Done with 12 breakpoint analysis.
+  Best break point locations: 1684, 3046, 4448, 9237, 11885, 14415, 15590, 20015, 21753, 22773, 24628, 29238
+  c-AIC = 213610.990395729

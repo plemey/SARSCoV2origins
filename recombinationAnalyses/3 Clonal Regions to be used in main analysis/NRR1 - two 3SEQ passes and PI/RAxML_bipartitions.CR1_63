@@ -1,0 +1,157 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=63;
+	taxlabels
+	'1|pangolin|Guandong|EPI_ISL_410721|2020-02-16'[&!color=#990000]
+	'279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11'[&!color=#ff66cc]
+	'Anlong-103|Bat-R_sinicus|Guizhou-Anlong|KY770858|2013'[&!color=#00ff33]
+	'Anlong-112|Bat-R_sinicus|Guizhou-Anlong|KY770859|2013'[&!color=#00ff33]
+	'As6526|Bat-Aselliscus_stoliczkanus|Yunnan-Kunming|KY417142|2014-05-12'[&!color=#009933]
+	'BtKY72|Bat-R_spp|Kenya|KY352407|2007-10'
+	'F46|Bat-R_pusillus|Yunnan|KU973692|2012'[&!color=#009933]
+	'GX2013|Bat-R_sinicus|Guangxi|KJ473815|2012-11'
+	'HKU3-10|Bat-R_sinicus|Hong_Kong|GQ153545|2006-10-28'[&!color=#0000cc]
+	'HKU3-11|Bat-R_sinicus|Hong_King|GQ153546|2007-03-07'[&!color=#0000cc]
+	'HKU3-12|Bat-R_sinicus|Hong_Kong|GQ153547|2007-05-15'[&!color=#0000cc]
+	'HKU3-13|Bat-R_sinicus|Hong_Kong|GQ153548|2007-11-15'[&!color=#0000cc]
+	'HKU3-1|Bat-R_sinicus|Hong_Kong|DQ022305|2005-02-17'[&!color=#0000cc]
+	'HKU3-2|Bat-R_sinicus|Hong_Kong|DQ084199|2005-02-24'[&!color=#0000cc]
+	'HKU3-3|Bat-R_sinicus|Hong_Kong|DQ084200|2005-03-17'[&!color=#0000cc]
+	'HKU3-4|Bat-R_sinicus|Hong_Kong|GQ153539|2005-07-20'[&!color=#0000cc]
+	'HKU3-5|Bat-R_sinicus|Hong_Kong|GQ153540|2005-09-20'[&!color=#0000cc]
+	'HKU3-6|Bat-R_sinicus|Hong_Kong|GQ153541|2005-12-16'[&!color=#0000cc]
+	'HKU3-7|Bat-R_sinicus|Guangdong|GQ153542|2006-02-15'[&!color=#0000cc]
+	'HKU3-8|Bat-R_sinicus|Guangdong|GQ153543|2006-02-15'[&!color=#0000cc]
+	'HKU3-9|Bat-R_sinicus|Hong_Kong|GQ153544|2006-10-28'[&!color=#0000cc]
+	'HSZ-Cc|SARS-CoV-1|Guangzhou|AY394995|2002'[&!color=#990099]
+	'HeB2013|Bat-R_ferrumequinum|Hebei|KJ473812|2013-04'[&!color=#00cccc]
+	'HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04'[&!color=#ff66cc]
+	'JL2012|Bat-R_ferrumequinum|Jilin|KJ473811|2012-10'[&!color=#00cccc]
+	'JTMC15|Bat-R_ferrumequinum|Jilin|KU182964|2013-10'[&!color=#00cccc]
+	'Jiyuan-84|Bat-R_ferrumequinum|Henan-Jiyuan|KY770860|2012'[&!color=#00cccc]
+	'LYRa11|Bat-R_affinis|Yunnan-Baoshan|KF569996|2011'[&!color=#009933]
+	'Longquan_140|Bat-R_monoceros|China|KF294457|2012'[&!color=#0000cc]
+	'P1E|pangolin|Guangxi|EPI_ISL_410539|2017'[&!color=#ff9900]
+	'P2V|pangolin|Guangxi|EPI_ISL_410542|2017'[&!color=#ff9900]
+	'P4L|pangolin|Guangxi|EPI_ISL_410538|2017'[&!color=#ff9900]
+	'P5E|pangolin|Guangxi|EPI_ISL_410541|2017'[&!color=#ff9900]
+	'P5L|pangolin|Guangxi||EPI_ISL_410540|2017'[&!color=#ff9900]
+	'RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24'[&!color=#990000]
+	'Rf4092|Bat-R_ferrumequinum|Yunnan-Kunming|KY417145|2012-09-18'[&!color=#009933]
+	'Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11'[&!color=#ff66cc]
+	'Rp3|Bat-R_pearsoni|Guangxi-Nanning|DQ071615|2004-12'
+	'RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09'[&!color=#00cccc]
+	'Rs3367|Bat-R_sinicus|Yunnan-Kunming|KC881006|2012-03-19'[&!color=#009933]
+	'Rs4081|Bat-R_sinicus|Yunnan-Kunming|KY417143|2012-09-18'[&!color=#009933]
+	'Rs4084|Bat-R_sinicus|Yunnan-Kunming|KY417144|2012-09-18'[&!color=#009933]
+	'Rs4231|Bat-R_sinicus|Yunnan-Kunming|KY417146|2013-04-17'[&!color=#009933]
+	'Rs4237|Bat-R_sinicus|Yunnan-Kunming|KY417147|2013-04-17'[&!color=#009933]
+	'Rs4247|Bat-R_sinicus|Yunnan-Kunming|KY417148|2013-04-17'[&!color=#009933]
+	'Rs4255|Bat-R_sinicus|Yunnan-Kunming|KY417149|2013-04-17'[&!color=#009933]
+	'Rs4874|Bat-R_sinicus|Yunnan-Kunming|KY417150|2013-07-21'[&!color=#009933]
+	'Rs672|Bat-R_sinicus|Guizhou|FJ588686|2006-09'[&!color=#00ff33]
+	'Rs7327|Bat-R_sinicus|Yunnan--Kunming|KY417151|2014-10-24'[&!color=#009933]
+	'Rs9401|Bat-R_sinicus|Yunnan-Kunming|KY417152|2015-10-16'[&!color=#009933]
+	'RsSHC014|Bat-R_sinicus|Yunnan-Kunming|KC881005|2011-04-17'[&!color=#009933]
+	'SX2013|Bat-R_ferrumequinum|Shanxi|KJ473813|2013-11'[&!color=#00cccc]
+	'WIV16|Bat-R_sinicus|Yunnan-Kunming|KT444582|2013-07-21'[&!color=#009933]
+	'WIV1|Bat-R_sinicus|Yunnan-Kunming|KF367457|2012-09'[&!color=#009933]
+	'Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12'[&!color=#990000]
+	'YN2013|Bat-R_sinicus|Yunnan|KJ473816|2010-12'[&!color=#009933]
+	'YN2018A|Bat-R_affinis|Yunnan|MK211375|2016-09'[&!color=#009933]
+	'YN2018B|Bat-R_affinis|Yunnan|MK211376|2016-09'[&!color=#009933]
+	'YN2018C|Bat-R_affinis|Yunnan-Kunming|MK211377|2016-09'[&!color=#009933]
+	'YN2018D|Bat-R_affinis|Yunnan|MK211378|2016-09'[&!color=#009933]
+	'YNLF_31C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886808|2013-05-23'[&!color=#009933]
+	'YNLF_34C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886809|2013-05-23'[&!color=#009933]
+	'Yunnan2011|Bat-Chaerephon_plicata|Yunnan|JX993988|2011-11'[&!color=#009933]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (('279_2005|Bat-R_macrotis|Hubei|DQ648857|2004-11':6.59E-4,'Rm1|Bat-R_macrotis|Hubei|DQ412043|2004-11':0.001909)[&bs=100]:0.059277,((('Longquan_140|Bat-R_monoceros|China|KF294457|2012':0.023016,(('HKU3-7|Bat-R_sinicus|Guangdong|GQ153542|2006-02-15':7.8E-5,'HKU3-8|Bat-R_sinicus|Guangdong|GQ153543|2006-02-15':2.52E-4)[&bs=100]:0.007182,('HKU3-12|Bat-R_sinicus|Hong_Kong|GQ153547|2007-05-15':0.007538,(('HKU3-3|Bat-R_sinicus|Hong_Kong|DQ084200|2005-03-17':1.0E-6,'HKU3-1|Bat-R_sinicus|Hong_Kong|DQ022305|2005-02-17':1.0E-6)[&bs=99]:2.15E-4,('HKU3-6|Bat-R_sinicus|Hong_Kong|GQ153541|2005-12-16':4.12E-4,(('HKU3-2|Bat-R_sinicus|Hong_Kong|DQ084199|2005-02-24':1.0E-6,(((('HKU3-10|Bat-R_sinicus|Hong_Kong|GQ153545|2006-10-28':1.0E-6,'HKU3-9|Bat-R_sinicus|Hong_Kong|GQ153544|2006-10-28':1.0E-6)[&bs=100]:1.65E-4,'HKU3-11|Bat-R_sinicus|Hong_King|GQ153546|2007-03-07':3.3E-4)[&bs=96]:1.65E-4,'HKU3-13|Bat-R_sinicus|Hong_Kong|GQ153548|2007-11-15':7.43E-4)[&bs=69]:8.2E-5,'HKU3-4|Bat-R_sinicus|Hong_Kong|GQ153539|2005-07-20':2.47E-4)[&bs=25]:1.0E-6)[&bs=7]:1.0E-6,'HKU3-5|Bat-R_sinicus|Hong_Kong|GQ153540|2005-09-20':1.0E-6)[&bs=34]:1.0E-6)[&bs=82]:1.14E-4)[&bs=100]:0.005029)[&bs=99]:0.00412)[&bs=100]:0.014712)[&bs=100]:0.066,((('LYRa11|Bat-R_affinis|Yunnan-Baoshan|KF569996|2011':0.033389,'F46|Bat-R_pusillus|Yunnan|KU973692|2012':0.02097)[&bs=100]:0.023834,('Yunnan2011|Bat-Chaerephon_plicata|Yunnan|JX993988|2011-11':0.047214,(((('YN2018A|Bat-R_affinis|Yunnan|MK211375|2016-09':0.009321,('YN2013|Bat-R_sinicus|Yunnan|KJ473816|2010-12':0.004588,('Rs4084|Bat-R_sinicus|Yunnan-Kunming|KY417144|2012-09-18':0.003132,'RsSHC014|Bat-R_sinicus|Yunnan-Kunming|KC881005|2011-04-17':0.003344)[&bs=89]:0.003184)[&bs=90]:0.00205)[&bs=60]:0.003251,(('Rf4092|Bat-R_ferrumequinum|Yunnan-Kunming|KY417145|2012-09-18':0.009809,(('Rs4237|Bat-R_sinicus|Yunnan-Kunming|KY417147|2013-04-17':0.006987,('Rs4231|Bat-R_sinicus|Yunnan-Kunming|KY417146|2013-04-17':0.005609,('Rs4247|Bat-R_sinicus|Yunnan-Kunming|KY417148|2013-04-17':0.003165,('Rs4081|Bat-R_sinicus|Yunnan-Kunming|KY417143|2012-09-18':0.001896,('WIV16|Bat-R_sinicus|Yunnan-Kunming|KT444582|2013-07-21':4.95E-4,'Rs4874|Bat-R_sinicus|Yunnan-Kunming|KY417150|2013-07-21':5.83E-4)[&bs=100]:0.002372)[&bs=100]:0.003257)[&bs=89]:0.003292)[&bs=48]:0.002353)[&bs=75]:0.002817,(('Rs3367|Bat-R_sinicus|Yunnan-Kunming|KC881006|2012-03-19':1.64E-4,'WIV1|Bat-R_sinicus|Yunnan-Kunming|KF367457|2012-09':4.15E-4)[&bs=100]:0.003908,'Rs4255|Bat-R_sinicus|Yunnan-Kunming|KY417149|2013-04-17':0.00473)[&bs=47]:0.002281)[&bs=65]:0.002236)[&bs=36]:9.2E-4,('Rs7327|Bat-R_sinicus|Yunnan--Kunming|KY417151|2014-10-24':0.007243,('Rs9401|Bat-R_sinicus|Yunnan-Kunming|KY417152|2015-10-16':0.003729,('YN2018C|Bat-R_affinis|Yunnan-Kunming|MK211377|2016-09':0.003194,(('YN2018B|Bat-R_affinis|Yunnan|MK211376|2016-09':0.00122,'YN2018D|Bat-R_affinis|Yunnan|MK211378|2016-09':0.005937)[&bs=74]:0.001185,'As6526|Bat-Aselliscus_stoliczkanus|Yunnan-Kunming|KY417142|2014-05-12':0.003902)[&bs=73]:0.002339)[&bs=69]:0.002037)[&bs=28]:8.65E-4)[&bs=62]:0.003275)[&bs=44]:0.001511)[&bs=62]:0.002101,('Rs672|Bat-R_sinicus|Guizhou|FJ588686|2006-09':0.011479,(('Rp3|Bat-R_pearsoni|Guangxi-Nanning|DQ071615|2004-12':0.015054,'GX2013|Bat-R_sinicus|Guangxi|KJ473815|2012-11':0.022011)[&bs=100]:0.009978,('Anlong-103|Bat-R_sinicus|Guizhou-Anlong|KY770858|2013':5.78E-4,'Anlong-112|Bat-R_sinicus|Guizhou-Anlong|KY770859|2013':1.0E-6)[&bs=100]:0.006843)[&bs=82]:0.004367)[&bs=64]:0.002703)[&bs=74]:0.006261,('HSZ-Cc|SARS-CoV-1|Guangzhou|AY394995|2002':0.015248,('YNLF_34C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886809|2013-05-23':9.1E-4,'YNLF_31C|Bat-R_Ferrumequinum|Yunnan-Lufeng|KP886808|2013-05-23':8.4E-5)[&bs=100]:0.021121)[&bs=43]:0.004563)[&bs=71]:0.016165)[&bs=85]:0.012147)[&bs=100]:0.034326,('BtKY72|Bat-R_spp|Kenya|KY352407|2007-10':0.386681,(('1|pangolin|Guandong|EPI_ISL_410721|2020-02-16':0.066156,('Wuhan-Hu-1|SARS-CoV-2|Wuhan|MN908947|2019-12':0.018876,'RaTG13|Bat-R_affinis|Yunnan|EPI_ISL_402131|2013-07-24':0.021874)[&bs=100]:0.060353)[&bs=100]:0.101498,('P2V|pangolin|Guangxi|EPI_ISL_410542|2017':5.93E-4,(('P5L|pangolin|Guangxi||EPI_ISL_410540|2017':1.68E-4,'P1E|pangolin|Guangxi|EPI_ISL_410539|2017':1.68E-4)[&bs=86]:1.68E-4,('P4L|pangolin|Guangxi|EPI_ISL_410538|2017':2.52E-4,'P5E|pangolin|Guangxi|EPI_ISL_410541|2017':2.52E-4)[&bs=48]:1.0E-6)[&bs=83]:2.46E-4)[&bs=100]:0.16705)[&bs=100]:0.229303)[&bs=100]:0.142305)[&bs=100]:0.025932)[&bs=68]:0.009788,('RpShaanxi2011|Bat-R_pusillus|Shaanxi|JX993987|2011-09':0.038539,(('Jiyuan-84|Bat-R_ferrumequinum|Henan-Jiyuan|KY770860|2012':0.006115,('SX2013|Bat-R_ferrumequinum|Shanxi|KJ473813|2013-11':0.003503,'HeB2013|Bat-R_ferrumequinum|Hebei|KJ473812|2013-04':7.35E-4)[&bs=75]:0.003483)[&bs=99]:0.007153,('JTMC15|Bat-R_ferrumequinum|Jilin|KU182964|2013-10':0.001458,'JL2012|Bat-R_ferrumequinum|Jilin|KJ473811|2012-10':7.79E-4)[&bs=100]:0.01785)[&bs=100]:0.040476)[&bs=100]:0.033212)[&bs=100]:0.015286,'HuB2013|Bat-Bat-R_sinicus|Hubei|KJ473814|2013-04':0.045239);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="bs";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=10;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=569;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute=null;
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

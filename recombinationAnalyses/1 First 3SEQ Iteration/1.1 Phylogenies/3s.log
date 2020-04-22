@@ -1,0 +1,37 @@
+════════════════════════════════════════════════════════════════════════════════
+3SEQ -- Info Mode
+════════════════════════════════════════════════════════════════════════════════
+
+COMMAND:
+  -i Region_J_147_695.fasta
+
+Number of sequences          :  68
+Number of distinct sequences :  48
+Number of comparisons        :  300696
+
+Original sequence length is 549 nt.
+Using 549 positions, from 1 to 549 inclusive.
+
+Number of polymorphic sites is 225. Using only polymorphic sites:
+    bi: 159 - tri: 52 - tetra: 14
+
+Number of polymorphic sites where there are no gaps :  192/225
+
+Watterson's Theta            :  53.3238
+Watterson's Theta (per site) :  0.0971289
+
+Min  pairwise-distance between strains :  0
+Max  pairwise-distance between strains :  127
+Mean pairwise-distance between strains :  47.8385
+Mean pairwise-distance per site (pi)   :  0.0871374
+
+Notes:
+   AA-- and --AA are distinct but the pairwise-distance between them is zero.
+
+════════════════════════════════════════════════════════════════════════════════
+
+
+                                            ╔══════════════════════════════════╗
+                                            ║ Log saved at 2020/03/17 13:04:23 ║
+                                            ╚══════════════════════════════════╝
+

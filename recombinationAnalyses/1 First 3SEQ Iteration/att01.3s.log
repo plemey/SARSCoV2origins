@@ -1,0 +1,63 @@
+════════════════════════════════════════════════════════════════════════════════
+3SEQ -- Full Run
+════════════════════════════════════════════════════════════════════════════════
+
+COMMAND:
+  -full ../nCoVbat.pan6.fst -id att01
+
+Using 68 sequences as parents.
+Using 68 sequences as children.
+
+Need a p-value of 1.66281e-07 to survive multiple comparisons correction.
+
+All recombinant triplets will be recorded to the file "att01.3s.rec".
+
+Long recombinants will be recorded to the file "att01.3s.longRec".
+
+Searching for P-value table file...
+
+Loading P-value table from file
+"/home/maciek/PVALUETABLES/PVT.3SEQ.2017.1900"
+  Table size : 1900 * 1900 * 1900
+
+This will take 8722 MB of memory (RAM). Proceed? (Y/N) - YES
+
+Please be patient while the table loads into memory.
+This will typically take less than twenty seconds.
+
+────────────────────────────────────────────────────────────────────────────────
+
+                                                Recombinant
+Progress    Time Elapsed    Minimum P-Value    Triplets Found
+100.000%      000:00:49       0.000000e+00            92921
+
+────────────────────────────────────────────────────────────────────────────────
+
+Number of triples tested :              300696
+Number of p-values computed exactly :   189710
+Number of p-values approximated (HS) :  110986
+Number of p-values not computed :       0
+
+Number of recombinant triplets :                               	92921
+Number of distinct recombinant sequences :                     	67
+Number of distinct recombinant sequences at least 100nt long : 	67
+Longest of short recombinant segments :                        	12853nt
+
+────────────────────────────────────────────────────────────────────────────────
+
+Rejection of the null hypothesis of clonal evolution at p = 0
+                                                        p = 0.000e+00
+                                            Uncorrected p = 0
+                                            Bonferroni  p = 0
+
+────────────────────────────────────────────────────────────────────────────────
+
+The histogram of P-values has been saved in the file "att01.3s.pvalHist".
+
+════════════════════════════════════════════════════════════════════════════════
+
+
+                                            ╔══════════════════════════════════╗
+                                            ║ Log saved at 2020/02/19 09:43:56 ║
+                                            ╚══════════════════════════════════╝
+

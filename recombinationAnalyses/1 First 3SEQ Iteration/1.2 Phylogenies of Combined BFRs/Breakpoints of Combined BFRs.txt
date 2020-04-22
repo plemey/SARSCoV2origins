@@ -1,0 +1,9 @@
+
+
+These are the five BFRs that we will build trees off of.
+
+J+I : 		BFR 1 : 147-695, 962-1686
+B   :		BFR 2 : 3625-9150
+C	:   	BFR 3 : 9261-11795
+H+A :		BFR 4 : 12443-19638
+G+F+D+E :   BFR 5 : 23631-24633, 24795-25847, 27702-28843, 29574-30650

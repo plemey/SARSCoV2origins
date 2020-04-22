@@ -1,0 +1,7 @@
+CR1 is regions B and C from the first pass of 3SEQ
+
+It is nucleotides 3625-9150 & 9261-11795
+
+You have to remove the bulgaria sequence and the SC2018 sequence to ensure that it is clonal
+
+
